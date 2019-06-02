@@ -1,0 +1,5 @@
+kafka-docker-secured
+====================
+This repository, dockerized the getting started tutorial of apacke kafka that can be found (here)[https://kafka.apache.org/quickstart].
+
+The cluster will be secured through the SASL_PLAINTEXT authentication mechanism, producer and consumers can be found inside the tests folder.
