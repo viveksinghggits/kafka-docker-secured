@@ -1,5 +1,11 @@
-kafka-docker-secured
+##kafka-docker-secured
 ====================
-This repository, dockerized the getting started tutorial of apacke kafka that can be found (here)[https://kafka.apache.org/quickstart].
+This repository, dockerized the getting started tutorial of apacke kafka that can be found (here) [https://kafka.apache.org/quickstart].
 
 The cluster will be secured through the SASL_PLAINTEXT authentication mechanism, producer and consumers can be found inside the tests folder.
+
+
+##Caveats
+================
+The username and passwords that are in the config files in the config directory, can not be changed at the run time (while docker run) so 
+you will have to build the image anytime you want to change the username or pasword for the kafka broker.
